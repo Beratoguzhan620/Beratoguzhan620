@@ -1,9 +1,10 @@
 <h1>Berat Oğuzhan Turğut</h1>
 
-<p><b>Software Developer</b> · C# and .NET · React Native and Expo</p>
+<p><b>Software Developer</b> · C# and .NET · React Native and Expo · Samsun, Türkiye</p>
 
 <p>
   <a href="https://beratoguzhan620.github.io/portfolio/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-beratoguzhan620.github.io-1F2A37?style=flat-square" /></a>
+  <a href="https://www.linkedin.com/in/berat-oguzhan-turgut"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-berat--oguzhan--turgut-1F2A37?style=flat-square&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:beratoguzhan620@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-beratoguzhan620%40gmail.com-1F2A37?style=flat-square&logo=gmail&logoColor=white" /></a>
   <a href="https://beratoguzhan620.github.io/portfolio/cv-builder/"><img alt="CV builder" src="https://img.shields.io/badge/CV_builder-try_it-1F2A37?style=flat-square" /></a>
 </p>
@@ -126,6 +127,6 @@ I build web applications with ASP.NET Core and mobile apps with React Native and
 
 Projelerin tamamı, canlı demolar ve tarayıcıda çalışan CV oluşturucu portföyümde: [beratoguzhan620.github.io/portfolio](https://beratoguzhan620.github.io/portfolio/). Sayfanın sağ üstündeki düğmeyle Türkçeye geçebilirsin.
 
-İletişim: [beratoguzhan620@gmail.com](mailto:beratoguzhan620@gmail.com)
+İletişim: [beratoguzhan620@gmail.com](mailto:beratoguzhan620@gmail.com) · [LinkedIn](https://www.linkedin.com/in/berat-oguzhan-turgut)
 
 </details>
