@@ -15,7 +15,7 @@ Software developer. I build web apps with C# and .NET and mobile apps with Expo 
 | [CafeMap](https://github.com/Beratoguzhan620/cafe-map) | Istanbul cafes on a map, with a bottom sheet, synced cards and search | Expo, expo-maps, Leaflet, TypeScript | [Demo](https://beratoguzhan620.github.io/cafe-map/) |
 | [Portfolio](https://github.com/Beratoguzhan620/portfolio) | This portfolio and a CV builder that runs in the browser | Astro, TypeScript, Playwright | [Site](https://beratoguzhan620.github.io/portfolio/) |
 
-More: [Inkwell](https://github.com/Beratoguzhan620/inkwell) · [EventTracker](https://github.com/Beratoguzhan620/event-tracker) · [Rollcall](https://github.com/Beratoguzhan620/rollcall) · [CineList](https://github.com/Beratoguzhan620/cinelist) · [Bugün Ne Yapalım?](https://github.com/Beratoguzhan620/bugun-ne-yapalim) · [Student CLI](https://github.com/Beratoguzhan620/student-cli)
+More: [Inkwell](https://github.com/Beratoguzhan620/inkwell) · [EventTracker](https://github.com/Beratoguzhan620/event-tracker) · [Rollcall](https://github.com/Beratoguzhan620/rollcall) · [CineList](https://github.com/Beratoguzhan620/cinelist) ([demo](https://beratoguzhan620.github.io/cinelist/)) · [Bugün Ne Yapalım?](https://github.com/Beratoguzhan620/bugun-ne-yapalim) ([demo](https://beratoguzhan620.github.io/bugun-ne-yapalim/)) · [Student CLI](https://github.com/Beratoguzhan620/student-cli)
 
 ### Tools
 
