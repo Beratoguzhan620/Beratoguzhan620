@@ -19,9 +19,9 @@ More: [Inkwell](https://github.com/Beratoguzhan620/inkwell) · [EventTracker](ht
 
 ### Tools
 
-**Backend:** C#, .NET, ASP.NET Core (MVC and Web API), Entity Framework Core, SQL Server, SQLite
-**Mobile and front end:** React Native, Expo, TypeScript, Redux Toolkit, Tailwind / NativeWind, Astro
-**Testing and delivery:** xUnit, Vitest, Playwright, GitHub Actions, Docker, Firebase
+- **Backend:** C#, .NET, ASP.NET Core (MVC and Web API), Entity Framework Core, SQL Server, SQLite
+- **Mobile and front end:** React Native, Expo, TypeScript, Redux Toolkit, Tailwind / NativeWind, Astro
+- **Testing and delivery:** xUnit, Vitest, Playwright, GitHub Actions, Docker, Firebase
 
 <details>
 <summary><b>Türkçe</b></summary>
