@@ -9,7 +9,7 @@
   <a href="https://beratoguzhan620.github.io/portfolio/cv-builder/"><img alt="CV builder" src="https://img.shields.io/badge/CV_builder-try_it-1F2A37?style=flat-square" /></a>
 </p>
 
-I build web applications with ASP.NET Core and mobile apps with React Native and Expo. I care about the parts that make software dependable: clear structure, automated tests, CI on every pull request and documentation someone else can follow.
+I build web applications and APIs with ASP.NET Core and mobile apps with React Native and Expo. I care about the parts that make software dependable: clear structure, automated tests, CI on every pull request and documentation someone else can follow.
 
 **How I work**
 
@@ -25,12 +25,21 @@ I build web applications with ASP.NET Core and mobile apps with React Native and
 <table>
   <tr>
     <td width="50%" valign="top">
+      <a href="https://github.com/Beratoguzhan620/mini-banking-api"><img src="assets/mini-banking-api.png" alt="Mini Banking API demo in a terminal" /></a>
+      <h4><a href="https://github.com/Beratoguzhan620/mini-banking-api">Mini Banking API</a></h4>
+      <p>Banking API on a double-entry ledger: idempotent requests, balances that stay correct under concurrent transfers, an append-only audit trail and reconciliation.</p>
+      <p><sub>ASP.NET Core · EF Core · PostgreSQL · Testcontainers · Docker</sub></p>
+      <p><a href="https://github.com/Beratoguzhan620/mini-banking-api">Code</a> · <a href="https://github.com/Beratoguzhan620/mini-banking-api/blob/main/docs/screenshots/demo.gif">Walkthrough</a></p>
+    </td>
+    <td width="50%" valign="top">
       <a href="https://github.com/Beratoguzhan620/marketly"><img src="assets/marketly.png" alt="Marketly storefront" /></a>
       <h4><a href="https://github.com/Beratoguzhan620/marketly">Marketly</a></h4>
       <p>Multi-seller marketplace for local producers: storefront with cart and coupons, order tracking, a seller area, an admin panel and a small File API.</p>
       <p><sub>ASP.NET Core MVC · Web API · EF Core · SQL Server · Docker</sub></p>
       <p><a href="https://github.com/Beratoguzhan620/marketly">Code</a> · <a href="https://github.com/Beratoguzhan620/marketly/blob/main/docs/screenshots/demo.gif">Walkthrough</a></p>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/Beratoguzhan620/stockly"><img src="assets/stockly.png" alt="Stockly dashboard" /></a>
       <h4><a href="https://github.com/Beratoguzhan620/stockly">Stockly</a></h4>
@@ -38,8 +47,6 @@ I build web applications with ASP.NET Core and mobile apps with React Native and
       <p><sub>ASP.NET Core MVC · EF Core · SQL Server · xUnit · Docker</sub></p>
       <p><a href="https://github.com/Beratoguzhan620/stockly">Code</a> · <a href="https://github.com/Beratoguzhan620/stockly/blob/main/docs/screenshots/demo.gif">Walkthrough</a></p>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/Beratoguzhan620/EduTrack"><img src="assets/edutrack.png" alt="EduTrack course stream" /></a>
       <h4><a href="https://github.com/Beratoguzhan620/EduTrack">EduTrack</a></h4>
@@ -47,6 +54,8 @@ I build web applications with ASP.NET Core and mobile apps with React Native and
       <p><sub>ASP.NET Core MVC · EF Core · FluentValidation · SQL Server</sub></p>
       <p><a href="https://github.com/Beratoguzhan620/EduTrack">Code</a> · <a href="https://github.com/Beratoguzhan620/EduTrack/blob/main/docs/screenshots/demo.gif">Walkthrough</a></p>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <a href="https://beratoguzhan620.github.io/kawaii-friend/"><img src="assets/kawaii-friend.png" alt="Kawaii Friend home screen" /></a>
       <h4><a href="https://github.com/Beratoguzhan620/kawaii-friend">Kawaii Friend</a></h4>
@@ -54,8 +63,6 @@ I build web applications with ASP.NET Core and mobile apps with React Native and
       <p><sub>Expo · TypeScript · Firebase · Firestore rules · NativeWind</sub></p>
       <p><a href="https://beratoguzhan620.github.io/kawaii-friend/"><b>Live demo</b></a> · <a href="https://github.com/Beratoguzhan620/kawaii-friend">Code</a></p>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <a href="https://beratoguzhan620.github.io/cafe-map/"><img src="assets/cafe-map.png" alt="CafeMap with a cafe opened" /></a>
       <h4><a href="https://github.com/Beratoguzhan620/cafe-map">CafeMap</a></h4>
@@ -63,17 +70,11 @@ I build web applications with ASP.NET Core and mobile apps with React Native and
       <p><sub>Expo · expo-maps · Bottom Sheet · Leaflet · TypeScript</sub></p>
       <p><a href="https://beratoguzhan620.github.io/cafe-map/"><b>Live demo</b></a> · <a href="https://github.com/Beratoguzhan620/cafe-map">Code</a></p>
     </td>
-    <td width="50%" valign="top">
-      <a href="https://beratoguzhan620.github.io/cinelist/"><img src="assets/cinelist.png" alt="CineList film grid" /></a>
-      <h4><a href="https://github.com/Beratoguzhan620/cinelist">CineList</a></h4>
-      <p>Personal film archive for phones and the web: add, edit, search, filter and sort, with optimistic updates.</p>
-      <p><sub>Expo · Redux Toolkit · RTK Query · TypeScript</sub></p>
-      <p><a href="https://beratoguzhan620.github.io/cinelist/"><b>Live demo</b></a> · <a href="https://github.com/Beratoguzhan620/cinelist">Code</a></p>
-    </td>
   </tr>
 </table>
 
 **More projects:**
+[CineList](https://beratoguzhan620.github.io/cinelist/) (film archive, Expo) ·
 [Inkwell](https://github.com/Beratoguzhan620/inkwell) (multi-author blog) ·
 [EventTracker](https://github.com/Beratoguzhan620/event-tracker) (events with a waiting list) ·
 [Rollcall](https://github.com/Beratoguzhan620/rollcall) (attendance and grades) ·
@@ -90,6 +91,7 @@ I build web applications with ASP.NET Core and mobile apps with React Native and
 <img alt=".NET" src="https://img.shields.io/badge/.NET-1F2A37?style=flat-square&logo=dotnet&logoColor=white" />
 <img alt="ASP.NET Core" src="https://img.shields.io/badge/ASP.NET_Core-1F2A37?style=flat-square" />
 <img alt="Entity Framework Core" src="https://img.shields.io/badge/EF_Core-1F2A37?style=flat-square" />
+<img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-1F2A37?style=flat-square&logo=postgresql&logoColor=white" />
 <img alt="SQL Server" src="https://img.shields.io/badge/SQL_Server-1F2A37?style=flat-square" />
 <img alt="SQLite" src="https://img.shields.io/badge/SQLite-1F2A37?style=flat-square&logo=sqlite&logoColor=white" />
 
@@ -105,6 +107,7 @@ I build web applications with ASP.NET Core and mobile apps with React Native and
 
 **Testing and delivery**<br />
 <img alt="xUnit" src="https://img.shields.io/badge/xUnit-1F2A37?style=flat-square" />
+<img alt="Testcontainers" src="https://img.shields.io/badge/Testcontainers-1F2A37?style=flat-square" />
 <img alt="Vitest" src="https://img.shields.io/badge/Vitest-1F2A37?style=flat-square&logo=vitest&logoColor=white" />
 <img alt="Playwright" src="https://img.shields.io/badge/Playwright-1F2A37?style=flat-square&logo=playwright&logoColor=white" />
 <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-1F2A37?style=flat-square&logo=githubactions&logoColor=white" />
@@ -118,7 +121,7 @@ I build web applications with ASP.NET Core and mobile apps with React Native and
 
 <br />
 
-**Yazılım geliştiriciyim.** ASP.NET Core ile web uygulamaları, React Native ve Expo ile mobil uygulamalar geliştiriyorum. Yazılımı güvenilir kılan kısımlara önem veriyorum: anlaşılır bir yapı, otomatik testler, her pull request'te çalışan CI ve başkasının da takip edebileceği belgeler.
+**Yazılım geliştiriciyim.** ASP.NET Core ile web uygulamaları ve API'ler, React Native ve Expo ile mobil uygulamalar geliştiriyorum. Yazılımı güvenilir kılan kısımlara önem veriyorum: anlaşılır bir yapı, otomatik testler, her pull request'te çalışan CI ve başkasının da takip edebileceği belgeler.
 
 - **Testli:** her projede birim testleri ve gerçek tarayıcıda çalışan uçtan uca bir akış var; GitHub Actions bunları her pull request'te çalıştırıyor.
 - **Okunur geçmiş:** küçük, anlamlı commit'ler; her özellik kendi pull request'iyle geliyor.
