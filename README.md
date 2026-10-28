@@ -93,6 +93,7 @@ I build web applications and APIs with ASP.NET Core and mobile apps with React N
 <img alt="ASP.NET Core" src="https://img.shields.io/badge/ASP.NET_Core-1F2A37?style=flat-square" />
 <img alt="Entity Framework Core" src="https://img.shields.io/badge/EF_Core-1F2A37?style=flat-square" />
 <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-1F2A37?style=flat-square&logo=postgresql&logoColor=white" />
+<img alt="Hangfire" src="https://img.shields.io/badge/Hangfire-1F2A37?style=flat-square" />
 <img alt="SQL Server" src="https://img.shields.io/badge/SQL_Server-1F2A37?style=flat-square" />
 <img alt="SQLite" src="https://img.shields.io/badge/SQLite-1F2A37?style=flat-square&logo=sqlite&logoColor=white" />
 
@@ -109,7 +110,6 @@ I build web applications and APIs with ASP.NET Core and mobile apps with React N
 **Testing and delivery**<br />
 <img alt="xUnit" src="https://img.shields.io/badge/xUnit-1F2A37?style=flat-square" />
 <img alt="Testcontainers" src="https://img.shields.io/badge/Testcontainers-1F2A37?style=flat-square" />
-<img alt="Hangfire" src="https://img.shields.io/badge/Hangfire-1F2A37?style=flat-square" />
 <img alt="Vitest" src="https://img.shields.io/badge/Vitest-1F2A37?style=flat-square&logo=vitest&logoColor=white" />
 <img alt="Playwright" src="https://img.shields.io/badge/Playwright-1F2A37?style=flat-square&logo=playwright&logoColor=white" />
 <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-1F2A37?style=flat-square&logo=githubactions&logoColor=white" />
