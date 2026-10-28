@@ -74,6 +74,7 @@ I build web applications and APIs with ASP.NET Core and mobile apps with React N
 </table>
 
 **More projects:**
+[Background Jobs](https://github.com/Beratoguzhan620/background-jobs) (Hangfire workers, retries and a dashboard for admins) ·
 [CineList](https://beratoguzhan620.github.io/cinelist/) (film archive, Expo) ·
 [Inkwell](https://github.com/Beratoguzhan620/inkwell) (multi-author blog) ·
 [EventTracker](https://github.com/Beratoguzhan620/event-tracker) (events with a waiting list) ·
@@ -108,6 +109,7 @@ I build web applications and APIs with ASP.NET Core and mobile apps with React N
 **Testing and delivery**<br />
 <img alt="xUnit" src="https://img.shields.io/badge/xUnit-1F2A37?style=flat-square" />
 <img alt="Testcontainers" src="https://img.shields.io/badge/Testcontainers-1F2A37?style=flat-square" />
+<img alt="Hangfire" src="https://img.shields.io/badge/Hangfire-1F2A37?style=flat-square" />
 <img alt="Vitest" src="https://img.shields.io/badge/Vitest-1F2A37?style=flat-square&logo=vitest&logoColor=white" />
 <img alt="Playwright" src="https://img.shields.io/badge/Playwright-1F2A37?style=flat-square&logo=playwright&logoColor=white" />
 <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-1F2A37?style=flat-square&logo=githubactions&logoColor=white" />
