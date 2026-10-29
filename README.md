@@ -75,6 +75,7 @@ I build web applications and APIs with ASP.NET Core and mobile apps with React N
 
 **More projects:**
 [Background Jobs](https://github.com/Beratoguzhan620/background-jobs) (Hangfire workers, retries and a dashboard for admins) ·
+[Notification Service](https://github.com/Beratoguzhan620/notification-service) (RabbitMQ delivery with an outbox, retries, dead letters and tracing) ·
 [CineList](https://beratoguzhan620.github.io/cinelist/) (film archive, Expo) ·
 [Inkwell](https://github.com/Beratoguzhan620/inkwell) (multi-author blog) ·
 [EventTracker](https://github.com/Beratoguzhan620/event-tracker) (events with a waiting list) ·
@@ -94,6 +95,8 @@ I build web applications and APIs with ASP.NET Core and mobile apps with React N
 <img alt="Entity Framework Core" src="https://img.shields.io/badge/EF_Core-1F2A37?style=flat-square" />
 <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-1F2A37?style=flat-square&logo=postgresql&logoColor=white" />
 <img alt="Hangfire" src="https://img.shields.io/badge/Hangfire-1F2A37?style=flat-square" />
+<img alt="RabbitMQ" src="https://img.shields.io/badge/RabbitMQ-1F2A37?style=flat-square&logo=rabbitmq&logoColor=white" />
+<img alt="OpenTelemetry" src="https://img.shields.io/badge/OpenTelemetry-1F2A37?style=flat-square&logo=opentelemetry&logoColor=white" />
 <img alt="SQL Server" src="https://img.shields.io/badge/SQL_Server-1F2A37?style=flat-square" />
 <img alt="SQLite" src="https://img.shields.io/badge/SQLite-1F2A37?style=flat-square&logo=sqlite&logoColor=white" />
 
