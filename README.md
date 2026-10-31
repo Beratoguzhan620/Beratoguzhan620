@@ -77,6 +77,7 @@ I build web applications and APIs with ASP.NET Core and mobile apps with React N
 [Background Jobs](https://github.com/Beratoguzhan620/background-jobs) (Hangfire workers, retries and a dashboard for admins) ·
 [Notification Service](https://github.com/Beratoguzhan620/notification-service) (RabbitMQ delivery with an outbox, retries, dead letters and tracing) ·
 [Log Analytics](https://github.com/Beratoguzhan620/log-analytics-api) (log search, alerts and a dashboard on partitioned PostgreSQL) ·
+[Realtime Chat](https://github.com/Beratoguzhan620/realtime-chat) (SignalR chat with read receipts and presence, two instances on a Redis backplane) ·
 [CineList](https://beratoguzhan620.github.io/cinelist/) (film archive, Expo) ·
 [Inkwell](https://github.com/Beratoguzhan620/inkwell) (multi-author blog) ·
 [EventTracker](https://github.com/Beratoguzhan620/event-tracker) (events with a waiting list) ·
@@ -98,11 +99,14 @@ I build web applications and APIs with ASP.NET Core and mobile apps with React N
 <img alt="Hangfire" src="https://img.shields.io/badge/Hangfire-1F2A37?style=flat-square" />
 <img alt="RabbitMQ" src="https://img.shields.io/badge/RabbitMQ-1F2A37?style=flat-square&logo=rabbitmq&logoColor=white" />
 <img alt="OpenTelemetry" src="https://img.shields.io/badge/OpenTelemetry-1F2A37?style=flat-square&logo=opentelemetry&logoColor=white" />
+<img alt="SignalR" src="https://img.shields.io/badge/SignalR-1F2A37?style=flat-square" />
+<img alt="Redis" src="https://img.shields.io/badge/Redis-1F2A37?style=flat-square&logo=redis&logoColor=white" />
 <img alt="Serilog" src="https://img.shields.io/badge/Serilog-1F2A37?style=flat-square" />
 <img alt="SQL Server" src="https://img.shields.io/badge/SQL_Server-1F2A37?style=flat-square" />
 <img alt="SQLite" src="https://img.shields.io/badge/SQLite-1F2A37?style=flat-square&logo=sqlite&logoColor=white" />
 
 **Mobile and web**<br />
+<img alt="React" src="https://img.shields.io/badge/React-1F2A37?style=flat-square&logo=react&logoColor=white" />
 <img alt="React Native" src="https://img.shields.io/badge/React_Native-1F2A37?style=flat-square&logo=react&logoColor=white" />
 <img alt="Expo" src="https://img.shields.io/badge/Expo-1F2A37?style=flat-square&logo=expo&logoColor=white" />
 <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-1F2A37?style=flat-square&logo=typescript&logoColor=white" />
