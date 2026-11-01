@@ -78,6 +78,7 @@ I build web applications and APIs with ASP.NET Core and mobile apps with React N
 [Notification Service](https://github.com/Beratoguzhan620/notification-service) (RabbitMQ delivery with an outbox, retries, dead letters and tracing) ·
 [Log Analytics](https://github.com/Beratoguzhan620/log-analytics-api) (log search, alerts and a dashboard on partitioned PostgreSQL) ·
 [Realtime Chat](https://github.com/Beratoguzhan620/realtime-chat) (SignalR chat with read receipts and presence, two instances on a Redis backplane) ·
+[Multi-Tenant SaaS](https://github.com/Beratoguzhan620/multi-tenant-saas) (a help desk many companies share, isolated by PostgreSQL row-level security, with plans and limits) ·
 [CineList](https://beratoguzhan620.github.io/cinelist/) (film archive, Expo) ·
 [Inkwell](https://github.com/Beratoguzhan620/inkwell) (multi-author blog) ·
 [EventTracker](https://github.com/Beratoguzhan620/event-tracker) (events with a waiting list) ·
@@ -96,6 +97,7 @@ I build web applications and APIs with ASP.NET Core and mobile apps with React N
 <img alt="ASP.NET Core" src="https://img.shields.io/badge/ASP.NET_Core-1F2A37?style=flat-square" />
 <img alt="Entity Framework Core" src="https://img.shields.io/badge/EF_Core-1F2A37?style=flat-square" />
 <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-1F2A37?style=flat-square&logo=postgresql&logoColor=white" />
+<img alt="Row-level security" src="https://img.shields.io/badge/Row--level_security-1F2A37?style=flat-square" />
 <img alt="Hangfire" src="https://img.shields.io/badge/Hangfire-1F2A37?style=flat-square" />
 <img alt="RabbitMQ" src="https://img.shields.io/badge/RabbitMQ-1F2A37?style=flat-square&logo=rabbitmq&logoColor=white" />
 <img alt="OpenTelemetry" src="https://img.shields.io/badge/OpenTelemetry-1F2A37?style=flat-square&logo=opentelemetry&logoColor=white" />
