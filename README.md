@@ -79,6 +79,7 @@ I build web applications and APIs with ASP.NET Core and mobile apps with React N
 [Log Analytics](https://github.com/Beratoguzhan620/log-analytics-api) (log search, alerts and a dashboard on partitioned PostgreSQL) ·
 [Realtime Chat](https://github.com/Beratoguzhan620/realtime-chat) (SignalR chat with read receipts and presence, two instances on a Redis backplane) ·
 [Multi-Tenant SaaS](https://github.com/Beratoguzhan620/multi-tenant-saas) (a help desk many companies share, isolated by PostgreSQL row-level security, with plans and limits) ·
+[Microservices Shop](https://github.com/Beratoguzhan620/microservices-shop) (six .NET services behind a YARP gateway, an order saga over RabbitMQ that never oversells) ·
 [CineList](https://beratoguzhan620.github.io/cinelist/) (film archive, Expo) ·
 [Inkwell](https://github.com/Beratoguzhan620/inkwell) (multi-author blog) ·
 [EventTracker](https://github.com/Beratoguzhan620/event-tracker) (events with a waiting list) ·
