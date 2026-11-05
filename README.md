@@ -82,6 +82,7 @@ I build web applications and APIs with ASP.NET Core and mobile apps with React N
 [Microservices Shop](https://github.com/Beratoguzhan620/microservices-shop) (six .NET services behind a YARP gateway, an order saga over RabbitMQ that never oversells) ·
 [Knowledge Base](https://github.com/Beratoguzhan620/knowledge-base-api) (answers from a team's own documents with citations: pgvector hybrid search, Ollama, streamed answers) ·
 [Gişe](https://github.com/Beratoguzhan620/gise) (ticketing with a seat map that never oversells, a fair waiting room, signed QR tickets checked offline at the gate) ·
+[Sahada](https://github.com/Beratoguzhan620/sahada) (field service: a day board that suggests the right technician, an offline-first technician app that syncs an operation log, signed PDF service reports) ·
 [CineList](https://beratoguzhan620.github.io/cinelist/) (film archive, Expo) ·
 [Inkwell](https://github.com/Beratoguzhan620/inkwell) (multi-author blog) ·
 [EventTracker](https://github.com/Beratoguzhan620/event-tracker) (events with a waiting list) ·
