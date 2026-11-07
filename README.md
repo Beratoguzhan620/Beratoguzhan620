@@ -84,6 +84,7 @@ I build web applications and APIs with ASP.NET Core and mobile apps with React N
 [Gişe](https://github.com/Beratoguzhan620/gise) (ticketing with a seat map that never oversells, a fair waiting room, signed QR tickets checked offline at the gate) ·
 [Sahada](https://github.com/Beratoguzhan620/sahada) (field service: a day board that suggests the right technician, an offline-first technician app that syncs an operation log, signed PDF service reports) ·
 [Kuryo](https://github.com/Beratoguzhan620/kuryo) (courier dispatch: timed offers to the nearest free courier with PostGIS, a live map over SignalR and Redis, a courier PWA and a tracking link for the customer) ·
+[Emanet](https://github.com/Beratoguzhan620/emanet) (peer-to-peer rentals: a calendar the database will not let anyone double-book, card holds through a stand-in payment provider, a double-entry ledger, handovers with codes and damage claims against the deposit) ·
 [CineList](https://beratoguzhan620.github.io/cinelist/) (film archive, Expo) ·
 [Inkwell](https://github.com/Beratoguzhan620/inkwell) (multi-author blog) ·
 [EventTracker](https://github.com/Beratoguzhan620/event-tracker) (events with a waiting list) ·
