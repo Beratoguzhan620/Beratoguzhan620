@@ -85,6 +85,7 @@ I build web applications and APIs with ASP.NET Core and mobile apps with React N
 [Sahada](https://github.com/Beratoguzhan620/sahada) (field service: a day board that suggests the right technician, an offline-first technician app that syncs an operation log, signed PDF service reports) ·
 [Kuryo](https://github.com/Beratoguzhan620/kuryo) (courier dispatch: timed offers to the nearest free courier with PostGIS, a live map over SignalR and Redis, a courier PWA and a tracking link for the customer) ·
 [Emanet](https://github.com/Beratoguzhan620/emanet) (peer-to-peer rentals: a calendar the database will not let anyone double-book, card holds through a stand-in payment provider, a double-entry ledger, handovers with codes and damage claims against the deposit) ·
+[Yoldaş](https://github.com/Beratoguzhan620/yoldas) (ride sharing along the driver's route: search along a route of stops with PostGIS, a fair price by distance, seats counted per part of the route by a database trigger, the car followed live over SignalR) ·
 [CineList](https://beratoguzhan620.github.io/cinelist/) (film archive, Expo) ·
 [Inkwell](https://github.com/Beratoguzhan620/inkwell) (multi-author blog) ·
 [EventTracker](https://github.com/Beratoguzhan620/event-tracker) (events with a waiting list) ·
