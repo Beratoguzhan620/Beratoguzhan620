@@ -1,6 +1,6 @@
 <h1>Berat Oğuzhan Turğut</h1>
 
-<p><b>Software Developer</b> · C# and .NET · React Native and Expo · Samsun, Türkiye</p>
+<p><b>Backend Developer</b> · C# and .NET · PostgreSQL · Samsun, Türkiye · looking for a junior .NET / backend role</p>
 
 <p>
   <a href="https://beratoguzhan620.github.io/portfolio/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-beratoguzhan620.github.io-1F2A37?style=flat-square" /></a>
@@ -9,90 +9,99 @@
   <a href="https://beratoguzhan620.github.io/portfolio/cv-builder/"><img alt="CV builder" src="https://img.shields.io/badge/CV_builder-try_it-1F2A37?style=flat-square" /></a>
 </p>
 
-I build web applications and APIs with ASP.NET Core and mobile apps with React Native and Expo. I care about the parts that make software dependable: clear structure, automated tests, CI on every pull request and documentation someone else can follow.
+I build backends with ASP.NET Core and PostgreSQL, and the web apps in front of them with React and TypeScript. My recent projects each take one problem real systems get wrong and solve it so it holds under load: selling the same seat twice, money moving twice, a message lost between the database and the queue, two people booking the same day, work done offline on a phone.
 
-**How I work**
+**What the 13 recent projects have in common**
 
-- **Tested:** every project has unit tests and an end-to-end flow in a real browser, run by GitHub Actions on each pull request.
-- **Readable history:** small, conventional commits, with each feature delivered through its own pull request.
-- **Documented:** a README in English and Turkish, with screenshots, a walkthrough and set-up steps.
-- **Careful with the details:** accessible, consistent interfaces; the portfolio scores 100 on Lighthouse.
+- **Correct under concurrency:** the database decides the races (row locks, exclusion constraints, triggers, idempotency keys), and a test proves it, for example 20 people taking the last seat at the same moment and exactly one getting it.
+- **Tested against the real thing:** 1,470 automated tests in total, with integration tests running the real API against PostgreSQL, RabbitMQ or Redis in Testcontainers, and end-to-end runs against the whole stack in CI.
+- **Measured:** a load test for each product, with the numbers and what they mean in the README.
+- **Runs with one command:** `docker compose up` starts the database, the API and the web app.
+- **Documented:** a README in English and Turkish with screenshots, a walkthrough GIF, architecture diagrams and the design decisions behind it.
 
 ---
 
-### Featured projects
+### Products
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/Beratoguzhan620/mini-banking-api"><img src="assets/mini-banking-api.png" alt="Mini Banking API demo in a terminal" /></a>
-      <h4><a href="https://github.com/Beratoguzhan620/mini-banking-api">Mini Banking API</a></h4>
-      <p>Banking API on a double-entry ledger: idempotent requests, balances that stay correct under concurrent transfers, an append-only audit trail and reconciliation.</p>
-      <p><sub>ASP.NET Core · EF Core · PostgreSQL · Testcontainers · Docker</sub></p>
-      <p><a href="https://github.com/Beratoguzhan620/mini-banking-api">Code</a> · <a href="https://github.com/Beratoguzhan620/mini-banking-api/blob/main/docs/screenshots/demo.gif">Walkthrough</a></p>
+      <a href="https://github.com/Beratoguzhan620/gise"><img src="assets/gise.png" alt="Gişe seat map during a sale" /></a>
+      <h4><a href="https://github.com/Beratoguzhan620/gise">Gişe</a></h4>
+      <p>Event ticketing: a seat map that never sells a seat twice, a fair waiting room for the rush and signed QR tickets checked offline at the gate.<br /><b>1,000 buyers at once: 330 seats held, none twice.</b></p>
+      <p><sub>ASP.NET Core · PostgreSQL · ECDSA · React · Docker</sub></p>
+      <p><a href="https://github.com/Beratoguzhan620/gise">Code</a> · <a href="https://github.com/Beratoguzhan620/gise/blob/main/docs/screenshots/demo.gif">Walkthrough</a></p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/Beratoguzhan620/marketly"><img src="assets/marketly.png" alt="Marketly storefront" /></a>
-      <h4><a href="https://github.com/Beratoguzhan620/marketly">Marketly</a></h4>
-      <p>Multi-seller marketplace for local producers: storefront with cart and coupons, order tracking, a seller area, an admin panel and a small File API.</p>
-      <p><sub>ASP.NET Core MVC · Web API · EF Core · SQL Server · Docker</sub></p>
-      <p><a href="https://github.com/Beratoguzhan620/marketly">Code</a> · <a href="https://github.com/Beratoguzhan620/marketly/blob/main/docs/screenshots/demo.gif">Walkthrough</a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Beratoguzhan620/stockly"><img src="assets/stockly.png" alt="Stockly dashboard" /></a>
-      <h4><a href="https://github.com/Beratoguzhan620/stockly">Stockly</a></h4>
-      <p>Stock management for a small shop: barcoded products, goods in and out, stock counts, low-stock alerts and Excel/CSV export.</p>
-      <p><sub>ASP.NET Core MVC · EF Core · SQL Server · xUnit · Docker</sub></p>
-      <p><a href="https://github.com/Beratoguzhan620/stockly">Code</a> · <a href="https://github.com/Beratoguzhan620/stockly/blob/main/docs/screenshots/demo.gif">Walkthrough</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Beratoguzhan620/EduTrack"><img src="assets/edutrack.png" alt="EduTrack course stream" /></a>
-      <h4><a href="https://github.com/Beratoguzhan620/EduTrack">EduTrack</a></h4>
-      <p>Classroom app for teachers and students: courses joined with a code, materials, graded assignments and a roster that shows who is behind.</p>
-      <p><sub>ASP.NET Core MVC · EF Core · FluentValidation · SQL Server</sub></p>
-      <p><a href="https://github.com/Beratoguzhan620/EduTrack">Code</a> · <a href="https://github.com/Beratoguzhan620/EduTrack/blob/main/docs/screenshots/demo.gif">Walkthrough</a></p>
+      <a href="https://github.com/Beratoguzhan620/yoldas"><img src="assets/yoldas.png" alt="Yoldaş search along a route" /></a>
+      <h4><a href="https://github.com/Beratoguzhan620/yoldas">Yoldaş</a></h4>
+      <p>Ride sharing along the driver's route: search with PostGIS, a fair price by distance, seats counted per part of the route by a database trigger, the car followed live.<br /><b>400 bookings in 2 s, no part of any route over full.</b></p>
+      <p><sub>ASP.NET Core · PostGIS · SignalR · React</sub></p>
+      <p><a href="https://github.com/Beratoguzhan620/yoldas">Code</a> · <a href="https://github.com/Beratoguzhan620/yoldas/blob/main/docs/screenshots/walkthrough.gif">Walkthrough</a></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://beratoguzhan620.github.io/kawaii-friend/"><img src="assets/kawaii-friend.png" alt="Kawaii Friend home screen" /></a>
-      <h4><a href="https://github.com/Beratoguzhan620/kawaii-friend">Kawaii Friend</a></h4>
-      <p>A virtual friend to look after: needs that change over time, Firebase sign-in, Firestore with tested security rules, and reminders.</p>
-      <p><sub>Expo · TypeScript · Firebase · Firestore rules · NativeWind</sub></p>
-      <p><a href="https://beratoguzhan620.github.io/kawaii-friend/"><b>Live demo</b></a> · <a href="https://github.com/Beratoguzhan620/kawaii-friend">Code</a></p>
+      <a href="https://github.com/Beratoguzhan620/kuryo"><img src="assets/kuryo.png" alt="Kuryo dispatcher map" /></a>
+      <h4><a href="https://github.com/Beratoguzhan620/kuryo">Kuryo</a></h4>
+      <p>Courier dispatch: timed offers to the nearest free courier, a live map over SignalR and Redis, a courier PWA and a tracking link for the customer.<br /><b>314 requests a second with no errors; order to first offer p95 35 ms.</b></p>
+      <p><sub>ASP.NET Core · PostGIS · SignalR · Redis · React</sub></p>
+      <p><a href="https://github.com/Beratoguzhan620/kuryo">Code</a> · <a href="https://github.com/Beratoguzhan620/kuryo/blob/main/docs/screenshots/walkthrough.gif">Walkthrough</a></p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://beratoguzhan620.github.io/cafe-map/"><img src="assets/cafe-map.png" alt="CafeMap with a cafe opened" /></a>
-      <h4><a href="https://github.com/Beratoguzhan620/cafe-map">CafeMap</a></h4>
-      <p>Istanbul cafes on a map: a bottom sheet for each pin, cards synced with the map and search that handles Turkish letters.</p>
-      <p><sub>Expo · expo-maps · Bottom Sheet · Leaflet · TypeScript</sub></p>
-      <p><a href="https://beratoguzhan620.github.io/cafe-map/"><b>Live demo</b></a> · <a href="https://github.com/Beratoguzhan620/cafe-map">Code</a></p>
+      <a href="https://github.com/Beratoguzhan620/emanet"><img src="assets/emanet.png" alt="Emanet rental listing" /></a>
+      <h4><a href="https://github.com/Beratoguzhan620/emanet">Emanet</a></h4>
+      <p>Peer-to-peer rentals: a calendar the database will not let anyone double-book, card holds, a double-entry ledger, handovers with codes and damage claims.<br /><b>300 requests for the same days: none booked twice, ledger balanced.</b></p>
+      <p><sub>ASP.NET Core · PostGIS · MinIO · React</sub></p>
+      <p><a href="https://github.com/Beratoguzhan620/emanet">Code</a> · <a href="https://github.com/Beratoguzhan620/emanet/blob/main/docs/screenshots/walkthrough.gif">Walkthrough</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Beratoguzhan620/sahada"><img src="assets/sahada.png" alt="Sahada day board" /></a>
+      <h4><a href="https://github.com/Beratoguzhan620/sahada">Sahada</a></h4>
+      <p>Field service: a day board that suggests the right technician, an offline-first technician app that syncs an operation log, signed PDF service reports.<br /><b>40 phones syncing at once; 400 resent operations, none applied twice.</b></p>
+      <p><sub>ASP.NET Core · PostgreSQL · MinIO · React · Docker</sub></p>
+      <p><a href="https://github.com/Beratoguzhan620/sahada">Code</a> · <a href="https://github.com/Beratoguzhan620/sahada/blob/main/docs/screenshots/walkthrough.gif">Walkthrough</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/Beratoguzhan620/microservices-shop"><img src="assets/microservices-shop.png" alt="Microservices Shop order flow" /></a>
+      <h4><a href="https://github.com/Beratoguzhan620/microservices-shop">Microservices Shop</a></h4>
+      <p>Six .NET services behind a YARP gateway, with an order saga over RabbitMQ that reserves stock, charges and compensates.<br /><b>60 customers, the last 10 units: exactly 10 sold, the other 50 never charged.</b></p>
+      <p><sub>ASP.NET Core · RabbitMQ · MassTransit · YARP · React</sub></p>
+      <p><a href="https://github.com/Beratoguzhan620/microservices-shop">Code</a> · <a href="https://github.com/Beratoguzhan620/microservices-shop/blob/main/docs/screenshots/demo.gif">Walkthrough</a></p>
     </td>
   </tr>
 </table>
 
-**More projects:**
-[Background Jobs](https://github.com/Beratoguzhan620/background-jobs) (Hangfire workers, retries and a dashboard for admins) ·
-[Notification Service](https://github.com/Beratoguzhan620/notification-service) (RabbitMQ delivery with an outbox, retries, dead letters and tracing) ·
-[Log Analytics](https://github.com/Beratoguzhan620/log-analytics-api) (log search, alerts and a dashboard on partitioned PostgreSQL) ·
-[Realtime Chat](https://github.com/Beratoguzhan620/realtime-chat) (SignalR chat with read receipts and presence, two instances on a Redis backplane) ·
-[Multi-Tenant SaaS](https://github.com/Beratoguzhan620/multi-tenant-saas) (a help desk many companies share, isolated by PostgreSQL row-level security, with plans and limits) ·
-[Microservices Shop](https://github.com/Beratoguzhan620/microservices-shop) (six .NET services behind a YARP gateway, an order saga over RabbitMQ that never oversells) ·
-[Knowledge Base](https://github.com/Beratoguzhan620/knowledge-base-api) (answers from a team's own documents with citations: pgvector hybrid search, Ollama, streamed answers) ·
-[Gişe](https://github.com/Beratoguzhan620/gise) (ticketing with a seat map that never oversells, a fair waiting room, signed QR tickets checked offline at the gate) ·
-[Sahada](https://github.com/Beratoguzhan620/sahada) (field service: a day board that suggests the right technician, an offline-first technician app that syncs an operation log, signed PDF service reports) ·
-[Kuryo](https://github.com/Beratoguzhan620/kuryo) (courier dispatch: timed offers to the nearest free courier with PostGIS, a live map over SignalR and Redis, a courier PWA and a tracking link for the customer) ·
-[Emanet](https://github.com/Beratoguzhan620/emanet) (peer-to-peer rentals: a calendar the database will not let anyone double-book, card holds through a stand-in payment provider, a double-entry ledger, handovers with codes and damage claims against the deposit) ·
-[Yoldaş](https://github.com/Beratoguzhan620/yoldas) (ride sharing along the driver's route: search along a route of stops with PostGIS, a fair price by distance, seats counted per part of the route by a database trigger, the car followed live over SignalR) ·
-[CineList](https://beratoguzhan620.github.io/cinelist/) (film archive, Expo) ·
+### Backend services
+
+| Project | What it does | Measured |
+|---|---|---|
+| [Mini Banking API](https://github.com/Beratoguzhan620/mini-banking-api) | A double-entry ledger with idempotent, concurrency-safe transfers | 100 transfers at once from one account: never below zero, never moved twice |
+| [Background Jobs](https://github.com/Beratoguzhan620/background-jobs) | Scheduled, recurring and retryable jobs with Hangfire on PostgreSQL | a run handed to two workers at once is done once |
+| [Notification Service](https://github.com/Beratoguzhan620/notification-service) | Email and in-app delivery over RabbitMQ with an outbox, retries, dead-letter replay and tracing | 122 tests against PostgreSQL, RabbitMQ and Mailpit in containers |
+| [Log Analytics](https://github.com/Beratoguzhan620/log-analytics-api) | Log ingestion, search, alerts and a dashboard on partitioned PostgreSQL | 30,294 events a second accepted; 500,000 stored in 22.5 s |
+| [Realtime Chat](https://github.com/Beratoguzhan620/realtime-chat) | SignalR chat with read receipts and presence, two instances on a Redis backplane | 2,000 open WebSockets; 215,802 of 215,802 messages delivered |
+| [Multi-Tenant SaaS](https://github.com/Beratoguzhan620/multi-tenant-saas) | A help desk many companies share, isolated by PostgreSQL row-level security | 2,000 tickets under load; every company saw only its own |
+| [Knowledge Base](https://github.com/Beratoguzhan620/knowledge-base-api) | Answers from a team's own documents with citations: pgvector hybrid search, Ollama, streamed answers | hit@3 97%; 32 of 32 answers cite the right passage |
+
+---
+
+### Earlier projects
+
+[Marketly](https://github.com/Beratoguzhan620/marketly) (multi-seller marketplace, ASP.NET Core MVC) ·
+[Stockly](https://github.com/Beratoguzhan620/stockly) (stock management for a small shop) ·
+[EduTrack](https://github.com/Beratoguzhan620/EduTrack) (classroom app) ·
 [Inkwell](https://github.com/Beratoguzhan620/inkwell) (multi-author blog) ·
 [EventTracker](https://github.com/Beratoguzhan620/event-tracker) (events with a waiting list) ·
 [Rollcall](https://github.com/Beratoguzhan620/rollcall) (attendance and grades) ·
-[Bugün Ne Yapalım?](https://beratoguzhan620.github.io/bugun-ne-yapalim/) (activity ideas) ·
+[Kawaii Friend](https://beratoguzhan620.github.io/kawaii-friend/) (Expo, Firebase) ·
+[CafeMap](https://beratoguzhan620.github.io/cafe-map/) (Expo, maps) ·
+[CineList](https://beratoguzhan620.github.io/cinelist/) (Expo, Redux Toolkit) ·
+[Bugün Ne Yapalım?](https://beratoguzhan620.github.io/bugun-ne-yapalim/) (Expo) ·
 [Student CLI](https://github.com/Beratoguzhan620/student-cli) (console app) ·
-[Portfolio](https://github.com/Beratoguzhan620/portfolio) (this portfolio and a CV builder)
+[Portfolio](https://github.com/Beratoguzhan620/portfolio) (Astro portfolio and a CV builder)
 
 ---
 
@@ -104,12 +113,17 @@ I build web applications and APIs with ASP.NET Core and mobile apps with React N
 <img alt="ASP.NET Core" src="https://img.shields.io/badge/ASP.NET_Core-1F2A37?style=flat-square" />
 <img alt="Entity Framework Core" src="https://img.shields.io/badge/EF_Core-1F2A37?style=flat-square" />
 <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-1F2A37?style=flat-square&logo=postgresql&logoColor=white" />
+<img alt="PostGIS" src="https://img.shields.io/badge/PostGIS-1F2A37?style=flat-square" />
+<img alt="pgvector" src="https://img.shields.io/badge/pgvector-1F2A37?style=flat-square" />
 <img alt="Row-level security" src="https://img.shields.io/badge/Row--level_security-1F2A37?style=flat-square" />
 <img alt="Hangfire" src="https://img.shields.io/badge/Hangfire-1F2A37?style=flat-square" />
 <img alt="RabbitMQ" src="https://img.shields.io/badge/RabbitMQ-1F2A37?style=flat-square&logo=rabbitmq&logoColor=white" />
+<img alt="MassTransit" src="https://img.shields.io/badge/MassTransit-1F2A37?style=flat-square" />
+<img alt="YARP" src="https://img.shields.io/badge/YARP-1F2A37?style=flat-square" />
 <img alt="OpenTelemetry" src="https://img.shields.io/badge/OpenTelemetry-1F2A37?style=flat-square&logo=opentelemetry&logoColor=white" />
 <img alt="SignalR" src="https://img.shields.io/badge/SignalR-1F2A37?style=flat-square" />
 <img alt="Redis" src="https://img.shields.io/badge/Redis-1F2A37?style=flat-square&logo=redis&logoColor=white" />
+<img alt="MinIO" src="https://img.shields.io/badge/MinIO-1F2A37?style=flat-square&logo=minio&logoColor=white" />
 <img alt="Serilog" src="https://img.shields.io/badge/Serilog-1F2A37?style=flat-square" />
 <img alt="SQL Server" src="https://img.shields.io/badge/SQL_Server-1F2A37?style=flat-square" />
 <img alt="SQLite" src="https://img.shields.io/badge/SQLite-1F2A37?style=flat-square&logo=sqlite&logoColor=white" />
@@ -122,6 +136,7 @@ I build web applications and APIs with ASP.NET Core and mobile apps with React N
 <img alt="Redux Toolkit" src="https://img.shields.io/badge/Redux_Toolkit-1F2A37?style=flat-square&logo=redux&logoColor=white" />
 <img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind_%2F_NativeWind-1F2A37?style=flat-square&logo=tailwindcss&logoColor=white" />
 <img alt="Bootstrap" src="https://img.shields.io/badge/Bootstrap-1F2A37?style=flat-square&logo=bootstrap&logoColor=white" />
+<img alt="Leaflet" src="https://img.shields.io/badge/Leaflet-1F2A37?style=flat-square&logo=leaflet&logoColor=white" />
 <img alt="Astro" src="https://img.shields.io/badge/Astro-1F2A37?style=flat-square&logo=astro&logoColor=white" />
 <img alt="Firebase" src="https://img.shields.io/badge/Firebase-1F2A37?style=flat-square&logo=firebase&logoColor=white" />
 
@@ -141,12 +156,13 @@ I build web applications and APIs with ASP.NET Core and mobile apps with React N
 
 <br />
 
-**Yazılım geliştiriciyim.** ASP.NET Core ile web uygulamaları ve API'ler, React Native ve Expo ile mobil uygulamalar geliştiriyorum. Yazılımı güvenilir kılan kısımlara önem veriyorum: anlaşılır bir yapı, otomatik testler, her pull request'te çalışan CI ve başkasının da takip edebileceği belgeler.
+**Backend geliştiriciyim.** ASP.NET Core ve PostgreSQL ile backend, React ve TypeScript ile önündeki web uygulamalarını geliştiriyorum. Junior .NET / backend pozisyonu arıyorum. Son projelerimin her biri, gerçek sistemlerin sık yanlış yaptığı bir problemi ele alıp yük altında da doğru kalacak şekilde çözüyor: aynı koltuğun iki kez satılması, paranın iki kez taşınması, veritabanı ile kuyruk arasında kaybolan mesaj, aynı günün iki kişiye kiralanması, telefonda çevrimdışı yapılan işin senkronu.
 
-- **Testli:** her projede birim testleri ve gerçek tarayıcıda çalışan uçtan uca bir akış var; GitHub Actions bunları her pull request'te çalıştırıyor.
-- **Okunur geçmiş:** küçük, anlamlı commit'ler; her özellik kendi pull request'iyle geliyor.
-- **Belgelenmiş:** İngilizce ve Türkçe README, ekran görüntüleri, tanıtım kaydı ve kurulum adımları.
-- **Ayrıntıya özen:** erişilebilir ve tutarlı arayüzler; portföy sitesi Lighthouse'ta 100 alıyor.
+- **Eşzamanlılıkta doğru:** yarışları veritabanı belirliyor (satır kilitleri, exclusion constraint'ler, tetikleyiciler, idempotency anahtarları) ve bunu bir test kanıtlıyor; örneğin son koltuğu aynı anda alan 20 kişiden tam biri alıyor.
+- **Gerçeğine karşı test:** toplam 1.470 otomatik test; entegrasyon testleri gerçek API'yi Testcontainers'taki PostgreSQL, RabbitMQ ya da Redis'e karşı çalıştırıyor, CI'da tüm ortam uçtan uca deneniyor.
+- **Ölçülmüş:** her üründe bir yük testi; sonuçlar ve ne anlama geldikleri README'de.
+- **Tek komutla çalışır:** `docker compose up` veritabanını, API'yi ve web uygulamasını başlatıyor.
+- **Belgelenmiş:** İngilizce ve Türkçe README, ekran görüntüleri, tanıtım GIF'i, mimari diyagramlar ve tasarım kararları.
 
 Projelerin tamamı, canlı demolar ve tarayıcıda çalışan CV oluşturucu portföyümde: [beratoguzhan620.github.io/portfolio](https://beratoguzhan620.github.io/portfolio/). Sayfanın sağ üstündeki düğmeyle Türkçeye geçebilirsin.
 
